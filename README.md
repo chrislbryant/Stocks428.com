@@ -1,10 +1,17 @@
-# Stocks 4 to 8
+# Stocks428
 
+### Go to [Stocks 428](https://www.stocks428.com/)
+
+<br>
 The goal of this project was to create an App allowing a user to create a price movement alert for US stocks and be notified via text message when the price rose above or below the user defined price. After successfully implementing the alert service, features to display stock charts, place trades, view orders, positions, balances, and a portfolio chart were added for a better user experience.
 
-## App Design
+<br>
+<br>
 
-This app uses <b>Django</b> with a <b>Postgres database</b>, <b>Javascript</b>, <b>HTML</b>, and <b>CSS</b>. In addition the following API’s and Libraries were used:
+## App Design
+<br>
+
+This app uses <b>Python Django</b> with a <b>Postgres database</b>, <b>Javascript</b>, <b>HTML</b>, and <b>CSS</b>. In addition the following API’s and Libraries were used:
 
 
 * <b>Twilio</b> – manage text messaging
@@ -17,10 +24,12 @@ This app uses <b>Django</b> with a <b>Postgres database</b>, <b>Javascript</b>, 
 
 The <b>Postgres</b> database is located on a Digital Ocean Managed Database Server seperate from the webserver droplet.
 
-The Messenger Script is located on the webserver droplet. A Chron job starts the srcipt every M-F at 4am. The script stops running at 8. The Messenger Script is responsible for checking alerts against a stocks current price (rises above or falls below) or the 52 week high/low. Once a users alert criteria are met a text message is sent to the user.
+The Messenger Script is located on the webserver droplet. A Chron job starts the srcipt every M-F at 4am. The script stops running at 8. The Messenger Script is responsible for checking alerts database table against a stocks current price (rises above or falls below) or the 52 week high/low. Once a users alert criteria are met a text message is sent to the user.
 
 The website is compromised of the following pages:
-Home, Register, Login, Logout, Alerts, Alert History, Trade, Portfolio, and Profile
+* Home, Register, Login, Logout, Alerts, Alert History, Trade, Portfolio, and Profile
+
+<br>
 
 ## Features:
 
@@ -32,9 +41,13 @@ Request real time data on any stock when placing an Alert.
 
 Research charts include OHLC, Candlestick, and Close. These charts can be pulled based on user specified data making each chart custom to the user’s preferences. 
 
-This platform allows the user to place trades with using their Alpaca account. Users can use a paper or live trading account. Users can also view their positions, orders, and account balances.
+This platform allows the user to place trades using their Alpaca account. Users can use a paper or live trading account. Users can also view their positions, orders, and account balances.
 
 Users can see their portfolio for a specified timeframe. (days, weeks, months, years)
 
-### This app is deployed!
+<br>
+
+The code for this app is in a private repository
+
+### This app is deployed! Go to [Stocks 428](https://www.stocks428.com/)
 
