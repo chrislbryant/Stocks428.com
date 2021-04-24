@@ -47,7 +47,7 @@ Users can see their portfolio for a specified timeframe. (days, weeks, months, y
 
 <br>
 
-The code for this app is in a private repository
+The code for this app is in a private repository. 
 
-### This app is deployed! Go to [Stocks 428](https://www.stocks428.com/)
+### This app is deployed! Go to [Stocks 428](https://www.stocks428.com/) to create an account!
 
