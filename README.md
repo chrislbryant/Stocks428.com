@@ -1,7 +1,5 @@
 # Stocks428
 
-### Go to [Stocks 428](https://www.stocks428.com/)
-
 <br>
 The goal of this project was to create an App allowing a user to create a price movement alert for US stocks and be notified via text message when the price rose above or below the user defined price. After successfully implementing the alert service, features to display stock charts, place trades, view orders, positions, balances, and a portfolio chart were added for a better user experience.
 
@@ -48,6 +46,3 @@ Users can see their portfolio for a specified timeframe. (days, weeks, months, y
 <br>
 
 The code for this app is in a private repository. <strong>I would be happy to demonstrate the code upon request!</strong>
-
-### This app is deployed! Go to [Stocks 428](https://www.stocks428.com/) to create an account!
-
